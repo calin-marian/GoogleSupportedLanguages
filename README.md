@@ -37,5 +37,5 @@ Also you can then typehint the parameter to the interface \GoogleSupportedLangua
 
 ## Installing the library.
 ```shell
-  composer require calin-marian/GoogleSupportedLanguages
+  composer require calin-marian/google-supported-languages
 ```
