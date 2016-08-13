@@ -15,7 +15,23 @@ Example code:
 ```
 
 If the provided language code is not part of the supported list, an InvalidArgumentException is thrown.
-Also you can then typehint the parameter to the interface \GoogleSupportedLanguages\Language\LanguageInterface
+
+Also you can then typehint the parameter to the interface \GoogleSupportedLanguages\Language\LanguageInterface:
+```php
+  class MyAwesomeGoogleApiLibrary implements MyAwesomeGoogleApiLibraryInterface;
+    ....
+    public function setLanguage(\GoogleSupportedLanguages\Language\LanguageInterface $language){
+      $this->language = $language;
+    }
+    ....
+    public function execute() {
+      ...
+      $parameters['language'] = $this->language->getCode();
+      ....
+    }
+    ....
+  }
+```
 
 ## Installing the library.
 ```shell
