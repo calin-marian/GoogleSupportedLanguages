@@ -3,7 +3,7 @@ namespace GoogleSupportedLanguages;
 
 /**
  * @file
- * Contains GoogleSupportedLanguages\Languages\LanguageBase.
+ * Contains GoogleSupportedLanguages\LanguageFactory.
  */
 
 use GoogleSupportedLanguages\Languages\LanguageInterface;
@@ -11,15 +11,15 @@ use GoogleSupportedLanguages\Languages\LanguageInterface;
 class LanguageFactory {
 
   /**
-   * Construct a language object from the language code.
+   * Create a language object from the language code.
    *
    * @param string $languageCode
    * @return LanguageInterface
    */
-  public static function construct($languageCode) {
-    $mappings = static::getMappings();
+  public function create($languageCode) {
+    $mappings = $this->getMappings();
 
-    if (isset($mappings[$languageCode])) {
+    if (!isset($mappings[$languageCode])) {
       throw new \InvalidArgumentException('The language code is not part of the supported list. Please see GoogleSupportedLanguages\LanguageFactory::getMappings() for reference.');
     }
 
@@ -27,11 +27,13 @@ class LanguageFactory {
   }
 
   /**
-   * Get a mapping of
+   * Get a mapping of supported languages classes to the language codes.
    *
    * @return string[]
+   * 
+   * @codeCoverageIgnore
    */
-  private static function getMappings() {
+  protected function getMappings() {
     return [
       'ar' => '\GoogleSupportedLanguages\Languages\Arabic',
       'bg' => '\GoogleSupportedLanguages\Languages\Bulgarian',

@@ -7,9 +7,11 @@ Google APIs support a [limited list of languages](https://developers.google.com/
 Example code:
 ```php
   $googleLibrary = new MyAwesomeGoogleApiLibrary($key);
+  
+  $languageFactory = new \GoogleSupportedLanguages\LanguageFactory();
 
   $languageCode = 'en';
-  $language = \GoogleSupportedLanguages\LanguageFactory($languageCode);
+  $language = $languageFactory->create($languageCode);
   
   $googleLibrary->setLanguage($language);
 ```
