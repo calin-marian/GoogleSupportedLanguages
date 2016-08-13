@@ -15,6 +15,7 @@ Example code:
 ```
 
 If the provided language code is not part of the supported list, an InvalidArgumentException is thrown.
+Also you can then typehint the parameter to the interface \GoogleSupportedLanguages\Language\LanguageInterface
 
 ## Installing the library.
 ```shell
