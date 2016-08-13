@@ -9,7 +9,7 @@ Example code:
   $googleLibrary = new MyAwesomeGoogleApiLibrary($key);
 
   $languageCode = 'en';
-  $language = \GoogleSupportedLanguages\LanguageFactory($language_code);
+  $language = \GoogleSupportedLanguages\LanguageFactory($languageCode);
   
   $googleLibrary->setLanguage($language);
 ```
