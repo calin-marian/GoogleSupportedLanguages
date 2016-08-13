@@ -1,4 +1,4 @@
-# GoogleSupportedLanguages
+# google-supported-languages
 
 ## Languages supported by Google APIs.
 
