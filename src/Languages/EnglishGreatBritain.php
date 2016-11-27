@@ -8,7 +8,7 @@ namespace GoogleSupportedLanguages\Languages;
 
 class EnglishGreatBritain extends LanguageBase {
 
-  public function _construct() {
+  public function __construct() {
     $this->code = "en-GB";
     $this->name = "English (Great Britain)";
   }

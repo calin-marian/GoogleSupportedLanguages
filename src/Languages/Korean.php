@@ -8,7 +8,7 @@ namespace GoogleSupportedLanguages\Languages;
 
 class Korean extends LanguageBase {
 
-  public function _construct() {
+  public function __construct() {
     $this->code = "ko";
     $this->name = "Korean";
   }

@@ -8,7 +8,7 @@ namespace GoogleSupportedLanguages\Languages;
 
 class Japanese extends LanguageBase {
 
-  public function _construct() {
+  public function __construct() {
     $this->code = "ja";
     $this->name = "Japanese";
   }

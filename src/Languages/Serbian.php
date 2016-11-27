@@ -8,7 +8,7 @@ namespace GoogleSupportedLanguages\Languages;
 
 class Serbian extends LanguageBase {
 
-  public function _construct() {
+  public function __construct() {
     $this->code = "sr";
     $this->name = "Serbian";
   }

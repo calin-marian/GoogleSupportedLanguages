@@ -8,7 +8,7 @@ namespace GoogleSupportedLanguages\Languages;
 
 class Marathi extends LanguageBase {
 
-  public function _construct() {
+  public function __construct() {
     $this->code = "mr";
     $this->name = "Marathi";
   }

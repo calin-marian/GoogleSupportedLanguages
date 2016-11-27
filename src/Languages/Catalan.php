@@ -8,7 +8,7 @@ namespace GoogleSupportedLanguages\Languages;
 
 class Catalan extends LanguageBase {
 
-  public function _construct() {
+  public function __construct() {
     $this->code = "ca";
     $this->name = "Catalan";
   }

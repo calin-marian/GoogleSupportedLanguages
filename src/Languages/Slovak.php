@@ -8,7 +8,7 @@ namespace GoogleSupportedLanguages\Languages;
 
 class Slovak extends LanguageBase {
 
-  public function _construct() {
+  public function __construct() {
     $this->code = "sk";
     $this->name = "Slovak";
   }

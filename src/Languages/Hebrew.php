@@ -8,7 +8,7 @@ namespace GoogleSupportedLanguages\Languages;
 
 class Hebrew extends LanguageBase {
 
-  public function _construct() {
+  public function __construct() {
     $this->code = "iw";
     $this->name = "Hebrew";
   }

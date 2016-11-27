@@ -8,7 +8,7 @@ namespace GoogleSupportedLanguages\Languages;
 
 class Gujarati extends LanguageBase {
 
-  public function _construct() {
+  public function __construct() {
     $this->code = "gu";
     $this->name = "Gujarati";
   }

@@ -8,7 +8,7 @@ namespace GoogleSupportedLanguages\Languages;
 
 class Italian extends LanguageBase {
 
-  public function _construct() {
+  public function __construct() {
     $this->code = "it";
     $this->name = "Italian";
   }

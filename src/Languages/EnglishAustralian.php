@@ -8,7 +8,7 @@ namespace GoogleSupportedLanguages\Languages;
 
 class EnglishAustralian extends LanguageBase {
 
-  public function _construct() {
+  public function __construct() {
     $this->code = "en-AU";
     $this->name = "English (Australian)";
   }

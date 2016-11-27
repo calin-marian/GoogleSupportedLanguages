@@ -8,7 +8,7 @@ namespace GoogleSupportedLanguages\Languages;
 
 class Arabic extends LanguageBase {
 
-  public function _construct() {
+  public function __construct() {
     $this->code = "ar";
     $this->name = "Arabic";
   }

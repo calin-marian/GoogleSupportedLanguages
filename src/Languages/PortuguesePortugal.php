@@ -8,7 +8,7 @@ namespace GoogleSupportedLanguages\Languages;
 
 class PortuguesePortugal extends LanguageBase {
 
-  public function _construct() {
+  public function __construct() {
     $this->code = "pt-PT";
     $this->name = "Portuguese (Portugal)";
   }

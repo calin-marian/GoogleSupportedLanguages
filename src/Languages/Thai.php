@@ -8,7 +8,7 @@ namespace GoogleSupportedLanguages\Languages;
 
 class Thai extends LanguageBase {
 
-  public function _construct() {
+  public function __construct() {
     $this->code = "th";
     $this->name = "Thai";
   }

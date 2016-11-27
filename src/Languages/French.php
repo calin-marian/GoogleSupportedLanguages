@@ -8,7 +8,7 @@ namespace GoogleSupportedLanguages\Languages;
 
 class French extends LanguageBase {
 
-  public function _construct() {
+  public function __construct() {
     $this->code = "fr";
     $this->name = "French";
   }

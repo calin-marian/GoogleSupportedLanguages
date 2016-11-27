@@ -8,7 +8,7 @@ namespace GoogleSupportedLanguages\Languages;
 
 class Farsi extends LanguageBase {
 
-  public function _construct() {
+  public function __construct() {
     $this->code = "fa";
     $this->name = "Farsi";
   }

@@ -8,7 +8,7 @@ namespace GoogleSupportedLanguages\Languages;
 
 class Malayalam extends LanguageBase {
 
-  public function _construct() {
+  public function __construct() {
     $this->code = "ml";
     $this->name = "Malayalam";
   }

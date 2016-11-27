@@ -8,7 +8,7 @@ namespace GoogleSupportedLanguages\Languages;
 
 class Hindi extends LanguageBase {
 
-  public function _construct() {
+  public function __construct() {
     $this->code = "hi";
     $this->name = "Hindi";
   }

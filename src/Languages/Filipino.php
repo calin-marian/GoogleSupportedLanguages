@@ -8,7 +8,7 @@ namespace GoogleSupportedLanguages\Languages;
 
 class Filipino extends LanguageBase {
 
-  public function _construct() {
+  public function __construct() {
     $this->code = "fil";
     $this->name = "Filipino";
   }

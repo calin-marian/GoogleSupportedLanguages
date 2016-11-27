@@ -8,7 +8,7 @@ namespace GoogleSupportedLanguages\Languages;
 
 class Ukrainian extends LanguageBase {
 
-  public function _construct() {
+  public function __construct() {
     $this->code = "uk";
     $this->name = "Ukrainian";
   }

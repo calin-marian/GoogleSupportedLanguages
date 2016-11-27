@@ -8,7 +8,7 @@ namespace GoogleSupportedLanguages\Languages;
 
 class Bulgarian extends LanguageBase {
 
-  public function _construct() {
+  public function __construct() {
     $this->code = "bg";
     $this->name = "Bulgarian";
   }

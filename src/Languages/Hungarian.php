@@ -8,7 +8,7 @@ namespace GoogleSupportedLanguages\Languages;
 
 class Hungarian extends LanguageBase {
 
-  public function _construct() {
+  public function __construct() {
     $this->code = "hu";
     $this->name = "Hungarian";
   }

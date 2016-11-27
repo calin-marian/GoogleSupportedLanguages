@@ -8,7 +8,7 @@ namespace GoogleSupportedLanguages\Languages;
 
 class Czech extends LanguageBase {
 
-  public function _construct() {
+  public function __construct() {
     $this->code = "cs";
     $this->name = "Czech";
   }

@@ -8,7 +8,7 @@ namespace GoogleSupportedLanguages\Languages;
 
 class Indonesian extends LanguageBase {
 
-  public function _construct() {
+  public function __construct() {
     $this->code = "id";
     $this->name = "Indonesian";
   }

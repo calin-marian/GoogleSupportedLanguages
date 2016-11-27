@@ -8,7 +8,7 @@ namespace GoogleSupportedLanguages\Languages;
 
 class Vietnamese extends LanguageBase {
 
-  public function _construct() {
+  public function __construct() {
     $this->code = "vi";
     $this->name = "Vietnamese";
   }

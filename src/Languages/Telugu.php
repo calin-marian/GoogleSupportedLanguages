@@ -8,7 +8,7 @@ namespace GoogleSupportedLanguages\Languages;
 
 class Telugu extends LanguageBase {
 
-  public function _construct() {
+  public function __construct() {
     $this->code = "te";
     $this->name = "Telugu";
   }

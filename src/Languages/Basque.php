@@ -8,7 +8,7 @@ namespace GoogleSupportedLanguages\Languages;
 
 class Basque extends LanguageBase {
 
-  public function _construct() {
+  public function __construct() {
     $this->code = "eu";
     $this->name = "Basque";
   }

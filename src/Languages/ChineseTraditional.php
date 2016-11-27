@@ -8,7 +8,7 @@ namespace GoogleSupportedLanguages\Languages;
 
 class ChineseTraditional extends LanguageBase {
 
-  public function _construct() {
+  public function __construct() {
     $this->code = "zh-TW";
     $this->name = "Chinese (Traditional)";
   }

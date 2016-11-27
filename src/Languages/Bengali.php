@@ -8,7 +8,7 @@ namespace GoogleSupportedLanguages\Languages;
 
 class Bengali extends LanguageBase {
 
-  public function _construct() {
+  public function __construct() {
     $this->code = "bn";
     $this->name = "Bengali";
   }

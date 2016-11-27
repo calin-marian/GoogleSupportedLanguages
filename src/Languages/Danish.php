@@ -8,7 +8,7 @@ namespace GoogleSupportedLanguages\Languages;
 
 class Danish extends LanguageBase {
 
-  public function _construct() {
+  public function __construct() {
     $this->code = "da";
     $this->name = "Danish";
   }

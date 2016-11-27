@@ -8,7 +8,7 @@ namespace GoogleSupportedLanguages\Languages;
 
 class Dutch extends LanguageBase {
 
-  public function _construct() {
+  public function __construct() {
     $this->code = "nl";
     $this->name = "Dutch";
   }

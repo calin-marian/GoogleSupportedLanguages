@@ -8,7 +8,7 @@ namespace GoogleSupportedLanguages\Languages;
 
 class Kannada extends LanguageBase {
 
-  public function _construct() {
+  public function __construct() {
     $this->code = "kn";
     $this->name = "Kannada";
   }

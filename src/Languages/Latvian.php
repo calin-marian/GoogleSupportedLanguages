@@ -8,7 +8,7 @@ namespace GoogleSupportedLanguages\Languages;
 
 class Latvian extends LanguageBase {
 
-  public function _construct() {
+  public function __construct() {
     $this->code = "lv";
     $this->name = "Latvian";
   }
