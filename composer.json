@@ -1,7 +1,7 @@
 {
-    "name": "calin-marian/GoogleSupportedLanguages",
+    "name": "calin-marian/google-supported-languages",
     "description": "Provides a list of supported languages by Google APIs.",
-    "homepage": "https://github.com/calin-marian/GoogleSupportedLanguages",
+    "homepage": "https://github.com/calin-marian/google-supported-languages",
     "license": "GPL-3.0+",
     "authors": [
         {
